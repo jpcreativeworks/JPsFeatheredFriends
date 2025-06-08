@@ -67,3 +67,16 @@
     padding: 1.5rem;
   }
 }
+
+.framed-image {
+  border: 4px solid #2d4c32;
+  border-radius: 12px;
+  padding: 4px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.framed-image:hover {
+  transform: scale(1.03);
+}
