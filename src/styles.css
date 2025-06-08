@@ -80,3 +80,38 @@
 .framed-image:hover {
   transform: scale(1.03);
 }
+
+.bird-card {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 3rem;
+  overflow: hidden;
+}
+
+.bird-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.card-text {
+  padding: 2rem;
+}
+
+.badge-available {
+  background-color: #2d4c32;
+}
+
+.badge-unavailable {
+  background-color: #6c757d;
+}
+
+@media (max-width: 768px) {
+  .bird-img {
+    border-radius: 1rem 1rem 0 0 !important;
+  }
+}
