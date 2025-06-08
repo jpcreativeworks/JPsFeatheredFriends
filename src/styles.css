@@ -115,3 +115,13 @@
     border-radius: 1rem 1rem 0 0 !important;
   }
 }
+
+a {
+  color: #2d4c32;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #1e3423;
+  text-decoration: none;
+}
