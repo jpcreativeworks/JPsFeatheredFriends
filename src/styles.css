@@ -1,0 +1,15 @@
+.navbar-custom {
+      background-color: #2d4c32;
+    }
+.navbar-custom .navbar-brand,
+  .navbar-custom .nav-link {
+      color: #fff;
+    }
+.navbar-custom .nav-link:hover {
+      color: #e8edd4; 
+    }
+.navbar-nav .nav-link.active {
+  background-color: #e8edd4;
+  color: #2d4c32 !important;
+  border-radius: 0.25rem;
+}
