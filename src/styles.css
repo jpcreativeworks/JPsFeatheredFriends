@@ -125,3 +125,13 @@ a:hover {
   color: #1e3423;
   text-decoration: none;
 }
+
+.adoption-card {
+  color: #e8edd4;
+  text-decoration: none;
+}
+
+.adoption-card:hover {
+  color: #e8edd4;
+  text-decoration: underline;
+}
